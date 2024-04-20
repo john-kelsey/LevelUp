@@ -1,0 +1,9 @@
+h1 {
+    color: blue;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    padding: 10px 0;
+    margin: 20px 0;
+    border-bottom: 2px solid pink;
+}
