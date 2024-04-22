@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Size</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: rgb(128, 255, 0);
+        }
+
+        @media (max-width: 500px) {
+            body {
+                background-color: aqua;
+            }
+        }
+
+        h1 {
+            color: blue;
+            font-size: 40px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            text-transform: uppercase;
+            padding: 10px 0;
+            margin: 20px 0;
+            border-bottom: 2px solid springgreen;
+        }
+
+       .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+       .container > div {
+            width: 100%;
+            height: 100%;
+            background-color: aqua;
+            padding-left: 2cm;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            text-align: center;
+            color: rgb(61, 60, 60);
+            font-weight: bold;
+            border: 3px solid black;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        a {
+            color: red;
+        }
+
+       .button {
+            width: 200px;
+            height: 50px;
+            font-size: 24px;
+            background-color: rgb(245, 217, 6);
+        }
+
+       .button:hover {
+            background-color: blue;
+        }
+
+       .alert {
+            background-color: red;
+            color: white;
+            padding: 10px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome</h1>
+    </header>
+    <main>
+        <div class="container">
+            Hello World Sample Text
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Ocean</th>
+                    <th>Average Depth</th>
+                    <th>Max Depth</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pacific Ocean</td>
+                    <td>3600 m</td>
+                    <td>10911 m</td>
+                </tr>
+            </tbody>
+        </table>
+        <ol>
+            <li><a href="https://www.google.com/">Google</a></li>
+            <li><a href="https://www.amazon.com/">Amazon</a> </li>
+            <li><a href="https://www.facebook.com/">Facebook</a></li>
+        </ol>
+        <button class="button">Click Me!</button>
+    </main>
+    <aside class="alert">
+        This is an alert
+    </aside>
+</body>
+</html>
