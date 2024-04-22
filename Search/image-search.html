@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Image Search</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <ul class="navbar">
+        <li style="float:left">Googlo</li>
+        <li><a href="index.html">Back to Search</a></li>
+    </ul>
+    <h3>Image Search</h3>
+    <hr>
+    <form action="https://cse.google.com/cse.js?cx=474d640df28234ee8" autocomplete="off" method="POST" enctype="multipart/form-data" role="search">
+      <input type="text" name="q" placeholder="Search by text (optional)">
+      <input type="file" name="image" accept="image/*">
+      <input type="Submit" value="Search">
+    </form>
+  </body>
+</html>
